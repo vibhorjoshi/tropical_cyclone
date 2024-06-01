@@ -17,10 +17,6 @@ The world map visualization showcases cyclone data across different geographical
 - Pandas
 - Hugging Face Library
 
-## Deployment:
-The project is deployed and accessible via the following link: [Tropical Cyclone Data Analysis App](https://vibhorjoshi-tropical-cyclone-app-fykvfg.streamlit.app/)
-
-
 
 # Deployment:
 The project is deployed and accessible via the following link: https://vibhorjoshi-tropical-cyclone-app-fykvfg.streamlit.app/
