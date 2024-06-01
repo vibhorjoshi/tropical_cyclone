@@ -6,7 +6,8 @@ This project analyzes tropical cyclone data obtained from the Hugging Face libra
 
 ## World Map Visualization:
 
-![World Map of Tropical Cyclone 2024](C:/Users/acer/Documents/tropical_cyclone/newplot.png)
+![world map of tropicaL cyclone](C:/Users/acer/Documents/tropical_cyclone/newplot.png)
+
 
 The world map visualization showcases cyclone data across different geographical regions. It highlights areas with higher cyclone frequencies or intensities, aiding in understanding global cyclone patterns and their distribution.
 
