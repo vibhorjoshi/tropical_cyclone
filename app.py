@@ -1,16 +1,21 @@
 import streamlit as st
 import pandas as pd
-from download_dataset import load_cyclone_data
-from data_loader import process_data
+from data_loader import process_data,load_cyclone_data
 from utils import load_geodata, plot_wind_speed_map
 import plotly.express as px
-
+from download_dataset import load_cyclone_data
 @st.cache_data
 def load_and_process_data():
-    df_train, df_test = load_cyclone_data()
-    df_train = process_data(df_train)
-    df_test = process_data(df_test)
+    df = pd.read_csv('tropical_cyclone_data.csv')
+    # Split the dataframe into train and test sets based on a specific criterion
+    # Here, we assume the split is based on some column values or a predefined split
+    # Replace this with actual logic for your dataset
+    df_train = df[df['split'] == 'train']
+    df_test = df[df['split'] == 'test']
     return df_train, df_test
+    
+# """Load cyclone data from a CSV file."""
+
 
 def plot_wind_speed_over_time(df):
     fig = px.line(df, x='relative_time', y='wind_speed', title='Wind Speed Over Time')
@@ -64,3 +69,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+   
