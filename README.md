@@ -20,7 +20,8 @@ The world map visualization showcases cyclone data across different geographical
 
 
 # Deployment:
-The project is deployed and accessible via the following link: https://vibhorjoshi-tropical-cyclone-app-fykvfg.streamlit.app/
+[Click here to visit the Tropical Cyclone App](https://vibhorjoshi-tropical-cyclone-app-fykvfg.streamlit.app/?embed_options=show_padding,show_footer,dark_theme,show_toolbar,light_theme,show_colored_line)
+
 
 ## How to Run:
 
